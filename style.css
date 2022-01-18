@@ -1,0 +1,144 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.fix{
+    position: fixed;
+}
+.color{
+    color: white;
+    padding: 20px;
+    /* margin: 20px; */
+}
+.color h1,h2{
+    display: inline;
+    /* margin: 40px; */
+}
+.color h2{
+    margin-left: 0rem;
+}
+#logo
+{
+    height: 5vh;
+    width: 4vw;
+    color: grey;
+}
+.sz{
+    width: 100% !important;
+    font-size: 20px;
+}
+.space{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.space div{
+    display: inline-block;
+    
+    /* white-space: normal; */
+}
+.head1{
+    height: 120vh;
+    background-size: contain;
+    /* width: 100vw; */
+    background-image: url('game-2.jpg');
+}
+.sidebarsize{
+    width: 13%;
+    height: 120vh;
+    font-size: 1.5rem;
+    /* color: rgb(00,00,00,0.8) !important; */
+    /* background-color: rgb(000, 000,000,0.8) !important; */
+}
+.divin{
+  margin: 10px;
+    /* margin-left: 15%; */
+    display: inline-block;
+    color: black;
+}
+/* aside { */
+    /* width: 60vh; */
+    /* display: inline-block; */
+/* } */
+
+/* Side bar css */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #37474F;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+
+/* #sidebar .nav{
+  
+} */
+
+#sidebar .nav a{
+  background: none;
+  border-bottom: 1px solid #455A64;
+  color: #CFD8DC;
+  font-size: 14px;
+  padding: 16px 24px;
+}
+
+#sidebar .nav a:hover{
+  background: none;
+  color: #ECEFF1;
+}
+
+#sidebar .nav a i{
+  margin-right: 16px;
+}
+/* sidebar css ends */
+
